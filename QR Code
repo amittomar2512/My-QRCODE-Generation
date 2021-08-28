@@ -1,0 +1,3 @@
+import qrcode
+img=qrcode.make("https://github.com/amittomar2512")
+img.save("Github.jpg")
